@@ -1,15 +1,17 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
-import PageTwo from '../components/Form';
+import App from './App';
+import Form from '../components/Form';
 
 const Main = () => {
   return (
     <Container>
-      <Switch>
-        <Route path="../pages/page-2" component={PageTwo}/>
-      </Switch>
+      <Router>
+        <Route path="/"/>
+        <Route path="/form" />
+      </Router>
     </Container>
   );
 };

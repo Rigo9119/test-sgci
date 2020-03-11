@@ -17,6 +17,7 @@ function DataTable(props) {
               <th>Modal</th>
             </tr>
           </thead>
+
           <tbody>
             {props.rows}
           </tbody>

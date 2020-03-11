@@ -1,0 +1,12 @@
+.graph {
+  display: flex;
+  height: 320px;
+  margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+}
+
+.lines-container {
+  position: relative;
+  width: 88%;
+}
